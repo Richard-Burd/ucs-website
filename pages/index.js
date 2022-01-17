@@ -10,18 +10,18 @@ export default function Home() {
     </div>
 
     <div className={"gap-2 justify-center grid lg:grid-cols-3 md:grid-cols-2 bg-gray-100 p-10"}>
-      <a className={"transform focus:scale-110 transition duration-300"} href="http://urbancruiseship.org/site/energy" target="_blank">
+      <a className={"transform focus:scale-110 transition duration-300"} href="http://urbancruiseship.org/site/energy" target="_blank" rel="noreferrer">
         <span className={"absolute text-purple-700 text-opacity-0 text-xs"}>energy production, distribution, and consumption</span>
         <img className={"transform hover:scale-110 transition duration-300"} src="images/homepage-icons/energy.svg" alt="icon that is a link to the matter site"/>
       </a>
 
 
-      <a className={"transform focus:scale-110 transition duration-300"} href="http://urbancruiseship.org/site/foodwater" target="_blank">
+      <a className={"transform focus:scale-110 transition duration-300"} href="http://urbancruiseship.org/site/foodwater" target="_blank" rel="noreferrer">
         <span className={"absolute text-purple-700 text-opacity-0 text-xs"}>matter, food, water, and other consumables</span>
         <img className={"transform hover:scale-110 transition duration-300"} src="/images/homepage-icons/matter.svg" alt="icon that is a link to the matter site"/>
       </a>
 
-      <a className={"transform focus:scale-110 transition duration-300"} href="http://urbancruiseship.org/site/habitat" target="_blank">
+      <a className={"transform focus:scale-110 transition duration-300"} href="http://urbancruiseship.org/site/habitat" target="_blank" rel="noreferrer">
         <span className={"absolute text-purple-700 text-opacity-0 text-xs"}>habitat, perspective and perception </span>
         <img className={"transform hover:scale-110 transition duration-300"} src="/images/homepage-icons/habitat.svg" alt="icon that is a link to the habitat site"/>
       </a>
