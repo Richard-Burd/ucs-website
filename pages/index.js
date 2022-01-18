@@ -1,15 +1,29 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <>
     <div className={"bg-gray-100 pl-12 bpg-arial-font text-gray-700"}>
       <br></br>
       <div className={"flex justify-between"} id="homepage-desktop-format">
-        <img className={"max-h-40 pt-2 pr-10 opacity-75"} src="/images/ucs-logo.png" alt="UCS-Logo"/>
+        <Image
+          className={"pt-2 pr-10 opacity-75"} 
+          src="/images/ucs-logo.png" 
+          alt="UCS-Logo"
+          width={650}
+          height={0}
+        />
         <p className={"text-2xl pt-16 pl-16 pr-8 mb-8"}>Founded in 2014, Urban Cruise Ship presents environmental solutions.</p>
       </div>
 
       <div id="homepage-mobile-n-tablet-format">
-        <img className={"max-h-40 pt-2 pr-10 opacity-75"} src="/images/ucs-logo.png" alt="UCS-Logo"/>
+        <Image
+          className={"pt-2 pr-10 opacity-75"} 
+          src="/images/ucs-logo.png" 
+          alt="UCS-Logo"
+          width={650}
+          height={0}
+        />
         <p className={"text-2xl pt-12 mb-8"}>Founded in 2014, Urban Cruise Ship presents environmental solutions.</p>
       </div>
 
