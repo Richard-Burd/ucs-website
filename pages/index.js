@@ -1,6 +1,9 @@
+import SpecializedSiteNavbar from '../components/specializedSiteNavbar'
+
 export default function Home() {
   return (
     <>
+    <SpecializedSiteNavbar />
     <div className={"bg-gray-100 pl-12 bpg-arial-font text-gray-700"}>
       <br></br>
       <div className={"flex justify-between"} id="homepage-desktop-format">

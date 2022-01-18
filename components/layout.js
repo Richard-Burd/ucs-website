@@ -20,7 +20,6 @@ export default function Layout({ children }) {
           @import url('http://fonts.cdnfonts.com/css/arreia-black');
           @import url('http://fonts.cdnfonts.com/css/bpg-arial');
         </style>
-
       </Head>
  
       <Navbar/>

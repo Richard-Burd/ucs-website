@@ -1,6 +1,10 @@
 const About = () => {
     return (
-        <h1>About</h1>
+        <div>
+            <br></br>
+            <h1>the about page would go here</h1>
+            <br></br>
+        </div>
     );
 }
 
