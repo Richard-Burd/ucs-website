@@ -18,3 +18,28 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* items below were added by Richard Burd; stuff above is Next.js default */
+.arial-rounded-mt-bold-font {
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+.bpg-arial-font {
+  font-family: 'BPG Arial', sans-serif;
+}
+.roboto-font {
+  font-family: 'Roboto', sans-serif;
+}
+.varela-round-font {
+  font-family: 'Varela Round', sans-serif;
+}
+
+@media only screen and (max-width: 1022px) {
+  #homepage-desktop-format {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1023px) {
+  #homepage-mobile-n-tablet-format {
+    display: none;
+  }
+}
