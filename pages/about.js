@@ -1,8 +1,11 @@
+import Navbarz from '../components/Navbarz'
+
 const About = () => {
     return (
         <div>
+            <Navbarz />
             <br></br>
-            <h1>the about page would go here</h1>
+            <h1>You have found your way to the "About" page!</h1>
             <br></br>
         </div>
     );

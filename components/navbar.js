@@ -15,9 +15,9 @@ export default function Navbar() {
                 
                 <div className="flex hidden md:flex items-center space-x-1 text-gray-900">
                   <a href="/about" className="py-4 px-3 hover:bg-gray-900 hover:text-gray-100 focus:bg-gray-900 focus:text-gray-100 transition duration-500">About</a>
-                  <a href="/ucs-standards" className="py-4 px-3 hover:bg-gray-900 hover:text-gray-100 focus:bg-gray-900 focus:text-gray-100 transition duration-500">Standards</a>
-                  <a href="/ucs-crew" className="py-4 px-3 hover:bg-gray-900 hover:text-gray-100 focus:bg-gray-900 focus:text-gray-100 transition duration-500">Crew</a>
-                  <a href="/ucs-activities" className="py-4 px-3 hover:bg-gray-900 hover:text-gray-100 focus:bg-gray-900 focus:text-gray-100 transition duration-500">Activities</a>
+                  <a href="/standards" className="py-4 px-3 hover:bg-gray-900 hover:text-gray-100 focus:bg-gray-900 focus:text-gray-100 transition duration-500">Standards</a>
+                  <a href="/crew" className="py-4 px-3 hover:bg-gray-900 hover:text-gray-100 focus:bg-gray-900 focus:text-gray-100 transition duration-500">Crew</a>
+                  <a href="/activities" className="py-4 px-3 hover:bg-gray-900 hover:text-gray-100 focus:bg-gray-900 focus:text-gray-100 transition duration-500">Activities</a>
                 </div>
               </div>
               
