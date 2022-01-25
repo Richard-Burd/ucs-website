@@ -1,3 +1,8 @@
+/* This file gets called in "./_app.js" which is located in the rood directory */
+
+/* These are the default styles that come with a new Next.js app */
+/* 
+
 html,
 body {
   padding: 0;
@@ -14,7 +19,9 @@ a {
 * {
   box-sizing: border-box;
 }
+*/
 
+/* These are here because Tailwind is installed */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

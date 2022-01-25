@@ -1,3 +1,7 @@
+// Net NInja
+// https://youtu.be/DGn25s42NvQ
+// This layout.js file is called in the _app.js file that is 
+// located in the root of the project.
 import Head from 'next/head'
 import Navbar from './navbar'
 import Footer from './footer'

@@ -1,4 +1,13 @@
 import SpecializedSiteNavbar from '../components/specializedSiteNavbar'
+// This is a "CSS Module" per Net Ninja:
+// https://youtu.be/qKwnlTVAGnA?t=284
+// ...this is how you import a page-specific css style shee:
+
+// import styles from '../styles/Home.module.css'
+
+// Net Ninja discusses static assets: https://youtu.be/rHncMH1CfCU
+import Link from 'next/link';
+import Image from 'next/image'; // requires width & height; doesn't work well with TailwindCSS
 
 export default function Home() {
   return (
@@ -7,7 +16,7 @@ export default function Home() {
     <div className={"bg-gray-100 pl-12 bpg-arial-font text-gray-700"}>
       <br></br>
       <div className={"flex justify-between"} id="homepage-desktop-format">
-        <img className={"max-h-40 pt-2 pr-10 opacity-75"} src="/images/ucs-logo.png" alt="UCS-Logo"/>
+        <img className={"max-h-40 pt-2 pr-10 opacity-75"} src="/images/ucs-logo.png" alt="UCS-Logo" />
         <p className={"text-2xl pt-16 pl-16 pr-8 mb-8"}>Founded in 2014, Urban Cruise Ship presents environmental solutions.</p>
       </div>
 
