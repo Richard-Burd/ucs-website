@@ -32,3 +32,14 @@
       prevScrollpos = currentScrollPos;
     }
   }
+  
+  document.addEventListener("keyup", function(event) {
+    // Number 13 is the "Enter" key on the keyboard
+    // Number 9 is the "Tab" key on the keyboard
+    if (event.keyCode === 9) {
+      // this script is for accessability;
+      // the user can "tab" and when the tabindex falls onto the navigation bar,
+      // the navigation bar will drop-down into view
+      document.getElementById("navbar").style.top = "0px";
+    }
+  });
