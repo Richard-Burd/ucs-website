@@ -17,6 +17,8 @@ const NotFound = () => {
     setTimeout(() => {
       // this would take the user to the last page they viewed
       // router.go(-1)
+
+      // this would take the user to the homepage
       router.push('/')
     }, 3000)
   }, []);

@@ -8,10 +8,15 @@ import SpecializedSiteNavbar from '../components/specializedSiteNavbar'
 // Net Ninja discusses static assets: https://youtu.be/rHncMH1CfCU
 import Link from 'next/link';
 import Image from 'next/image'; // requires width & height; doesn't work well with TailwindCSS
+import Head from 'next/head'; // used below to insert metadata
 
 export default function Home() {
   return (
     <>
+    <Head>
+      <title>Urban Cruise Ship | Homepage</title>
+      <meta name="solutions analysis" content="specialized sites"/>
+    </Head>
     <SpecializedSiteNavbar />
     <div className={"bg-gray-100 pl-12 bpg-arial-font text-gray-700"}>
       <br></br>

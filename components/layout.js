@@ -10,7 +10,7 @@ export default function Layout({ children }) {
   return (
     <div className={"py-14 sm:max-w-screen-md lg:max-w-screen-lg mx-auto"}>
       <Head>
-        <title>UCS Homepage</title>
+        <title>Urban Cruise Ship</title>
         <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0"/>
         <meta charset="utf-8"/>
         
