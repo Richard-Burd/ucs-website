@@ -19,8 +19,9 @@
     if (prevScrollpos > currentScrollPos) {
       document.getElementById("navbar").style.top = "0";
       prevScrollpos = currentScrollPos;
-    // if you set this "200" value to 0, you loose the delay effect
-    } else if (currentScrollPos > prevScrollpos + 200){
+    // NOTE: the speed of the navbar moving up & down as the user scrolls
+    // is set in the css file, not here.
+    } else if (currentScrollPos > prevScrollpos){
       // the "-59px" below controlls how far up the navbar moves off the viewport when the user scrolls up
       document.getElementById("navbar").style.top = "-59px";
       // this section hides the mobile dropdown menu when the user scrolls down
