@@ -19,10 +19,10 @@ export default function Layout({ children }) {
         <style>
           @import url('https://fonts.cdnfonts.com/css/arial-rounded-mt-bold');
           @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-          @import url('http://fonts.cdnfonts.com/css/varela-round-2');
+          @import url('https://fonts.cdnfonts.com/css/varela-round-2');
           @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-          @import url('http://fonts.cdnfonts.com/css/arreia-black');
-          @import url('http://fonts.cdnfonts.com/css/bpg-arial');
+          @import url('https://fonts.cdnfonts.com/css/arreia-black');
+          @import url('https://fonts.cdnfonts.com/css/bpg-arial');
         </style>
       </Head>
  
